@@ -1,0 +1,10 @@
+---
+title: "专业技能"
+---
+
+## 技术能力
+```{=html}
+<div class="skill-badges">
+  <div class="skill-badge">📊 SPSS数据分析</div>
+  <div class="skill-badge">🏗️ CAD工程制图</div>
+</div>

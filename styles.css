@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #2d4059;
+  --secondary-color: #ea5455;
+  --party-red: #c7000b;
+}
+
+body {
+  font-family: 'Noto Serif SC', serif;
+  line-height: 1.8;
+}
+
+.party-badge {
+  background: var(--party-red);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.skill-badge {
+  background: #f0f4f9;
+  border: 1px solid #d4dde7;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 25px;
+}

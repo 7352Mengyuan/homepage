@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "专业技能",
+    "section": "",
+    "text": "📊 SPSS数据分析\n\n\n🏗️ CAD工程制图"
+  },
+  {
+    "objectID": "skills.html#技术能力",
+    "href": "skills.html#技术能力",
+    "title": "专业技能",
+    "section": "",
+    "text": "📊 SPSS数据分析\n\n\n🏗️ CAD工程制图"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "联系方式",
+    "section": "",
+    "text": "📧 邮箱: 3325559090@qq.com"
+  },
+  {
+    "objectID": "contact.html#联系信息",
+    "href": "contact.html#联系信息",
+    "title": "联系方式",
+    "section": "",
+    "text": "📧 邮箱: 3325559090@qq.com"
+  },
+  {
+    "objectID": "contact.html#学术社交",
+    "href": "contact.html#学术社交",
+    "title": "联系方式",
+    "section": "学术社交",
+    "text": "学术社交\n\n  GitHub    ResearchGate"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "个人简介",
+    "section": "",
+    "text": "{.rounded shadow style=“width:200px; float: right; margin-left: 2rem;”}"
+  },
+  {
+    "objectID": "about.html#基本信息",
+    "href": "about.html#基本信息",
+    "title": "个人简介",
+    "section": "基本信息",
+    "text": "基本信息\n\n姓名: 张燚钦\n政治面貌: 中共党员\n出生年月: 2001年1月\n现居地: 湖北省武汉市\n专业方向: 环境工程技术与应用"
+  },
+  {
+    "objectID": "about.html#研究兴趣方向",
+    "href": "about.html#研究兴趣方向",
+    "title": "个人简介",
+    "section": "研究兴趣方向",
+    "text": "研究兴趣方向\n#| echo: false library(ggplot2) library(ggwordcloud)\nset.seed(2024) df &lt;- data.frame( term = c(“水处理技术”, “环境监测”, “污染物迁移”, “CAD工程设计”, “SPSS数据分析”, “环境政策”), freq = c(18, 15, 12, 10, 8, 6) )\nggplot(df, aes(label = term, size = freq)) + geom_text_wordcloud(shape = “circle”, color = c(“#2d4059”, “#ea5455”, “#f07b3f”, “#3f72af”, “#45b7d1”, “#7bc043”)) + scale_size_area(max_size = 14) + theme_minimal()"
+  },
+  {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "教育背景",
+    "section": "",
+    "text": "学位: 环境工程 硕士研究生\n研究方向: 水污染控制技术\n核心课程:\n\n高级环境化学\n环境系统工程\n污染生态修复技术"
+  },
+  {
+    "objectID": "education.html#华中农业大学-2024.09-至今",
+    "href": "education.html#华中农业大学-2024.09-至今",
+    "title": "教育背景",
+    "section": "",
+    "text": "学位: 环境工程 硕士研究生\n研究方向: 水污染控制技术\n核心课程:\n\n高级环境化学\n环境系统工程\n污染生态修复技术"
+  },
+  {
+    "objectID": "education.html#湖北大学-2020.09-2024.06",
+    "href": "education.html#湖北大学-2020.09-2024.06",
+    "title": "教育背景",
+    "section": "湖北大学 (2020.09-2024.06)",
+    "text": "湖北大学 (2020.09-2024.06)\n\n学位: 环境工程 工学学士\nGPA: 3.6/4.0 (专业前10%)\n核心课程:\n\n水污染控制工程实验（92分）\n仪器分析（88分）\n环境监测实验（90分）\n\n毕业论文: 《基于SPSS的武汉市湖泊水质数据分析》"
+  }
+]
