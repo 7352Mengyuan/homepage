@@ -2,16 +2,15 @@
 title: "个人简介"
 ---
 
-![个人照片](profile.jpg){.rounded shadow style="width:200px; float: right; margin-left: 2rem;"}
-
 ## 基本信息
 - **姓名**: 张燚钦 
 - **政治面貌**: <span class="party-badge">中共党员</span>
 - **出生年月**: 2001年1月
 - **现居地**: 湖北省武汉市
-- **专业方向**: 环境工程技术与应用
+- **专业方向**: 农业废水处理及资源化利用
 
 ## 研究兴趣方向
+
 ```{r}
 #| echo: false
 library(ggplot2)
@@ -30,3 +29,4 @@ ggplot(df, aes(label = term, size = freq)) +
                               "#3f72af", "#45b7d1", "#7bc043")) +
   scale_size_area(max_size = 14) +
   theme_minimal()
+```
