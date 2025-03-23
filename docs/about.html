@@ -154,7 +154,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="profile.jpg" class="img-fluid" alt="个人照片">{.rounded shadow style=“width:200px; float: right; margin-left: 2rem;”}</p>
 <section id="基本信息" class="level2">
 <h2 class="anchored" data-anchor-id="基本信息">基本信息</h2>
 <ul>
@@ -162,14 +161,23 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>政治面貌</strong>: <span class="party-badge">中共党员</span></li>
 <li><strong>出生年月</strong>: 2001年1月</li>
 <li><strong>现居地</strong>: 湖北省武汉市</li>
-<li><strong>专业方向</strong>: 环境工程技术与应用</li>
+<li><strong>专业方向</strong>: 农业废水处理及资源化利用</li>
 </ul>
 </section>
 <section id="研究兴趣方向" class="level2">
 <h2 class="anchored" data-anchor-id="研究兴趣方向">研究兴趣方向</h2>
-<p>#| echo: false library(ggplot2) library(ggwordcloud)</p>
-<p>set.seed(2024) df &lt;- data.frame( term = c(“水处理技术”, “环境监测”, “污染物迁移”, “CAD工程设计”, “SPSS数据分析”, “环境政策”), freq = c(18, 15, 12, 10, 8, 6) )</p>
-<p>ggplot(df, aes(label = term, size = freq)) + geom_text_wordcloud(shape = “circle”, color = c(“#2d4059”, “#ea5455”, “#f07b3f”, “#3f72af”, “#45b7d1”, “#7bc043”)) + scale_size_area(max_size = 14) + theme_minimal()</p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: 程序包'ggwordcloud'是用R版本4.4.3 来建造的</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section>

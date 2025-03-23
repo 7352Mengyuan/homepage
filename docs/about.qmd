@@ -1,0 +1,32 @@
+---
+title: "个人简介"
+---
+
+## 基本信息
+- **姓名**: 张燚钦 
+- **政治面貌**: <span class="party-badge">中共党员</span>
+- **出生年月**: 2001年1月
+- **现居地**: 湖北省武汉市
+- **专业方向**: 农业废水处理及资源化利用
+
+## 研究兴趣方向
+
+```{r}
+#| echo: false
+library(ggplot2)
+library(ggwordcloud)
+
+set.seed(2024)
+df <- data.frame(
+  term = c("水处理技术", "环境监测", "污染物迁移", 
+          "CAD工程设计", "SPSS数据分析", "环境政策"),
+  freq = c(18, 15, 12, 10, 8, 6)
+)
+
+ggplot(df, aes(label = term, size = freq)) +
+  geom_text_wordcloud(shape = "circle", 
+                     color = c("#2d4059", "#ea5455", "#f07b3f",
+                              "#3f72af", "#45b7d1", "#7bc043")) +
+  scale_size_area(max_size = 14) +
+  theme_minimal()
+```
